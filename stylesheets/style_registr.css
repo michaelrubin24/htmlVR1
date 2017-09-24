@@ -1,13 +1,13 @@
-h1, caption, .title_style {
+h1, caption, .title_style{
 	color: #000099;
 }
 
 h2, h3, b {
-	color: #001199;
+	color:#001199;
 }
 
 sup {
-	color: #990000;
+	color: #EA3510;
 	font-size: 24px;
 }
 
