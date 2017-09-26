@@ -18,9 +18,11 @@ form {
 .right_column ul li {
 	list-style: none;
 }
-
+a{
+	font-weight:bold;
+	text-decoration:none;
+}
 ul a:hover {
-	font-weight: bold;
 	background-color: #EA3510;
 }
 
