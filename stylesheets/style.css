@@ -1,3 +1,35 @@
 h1, h2, caption, .title_style {
 	color: #000099;
 }
+
+form {
+	border: 2px solid #000099;
+	padding: 10px 0 10px 5px;
+}
+
+.right_column ul li {
+	list-style: none;
+}
+
+ul a:hover {
+	font-weight: bold;
+	background-color: #EA3510;
+}
+
+.right_column {
+	vertical-align: top;
+}
+.right_column a:hover {
+	background-color: none;
+}
+
+.right_column img:hover {
+	border: 2px solid #000099;
+}
+
+.right_column img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
