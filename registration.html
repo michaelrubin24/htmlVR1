@@ -9,9 +9,9 @@
 		<table  cellpadding="20px" align="center" border="1px">
 			<caption align="bottom">Virtual Reality</caption>
 			<thead>
-					<tr height="200px">
-						<th colspan="3"><a href="index.html"><img width="100%" src="images/banner.jpg"></a></th>											
-					</tr>
+				<tr height="200px">
+					<th colspan="3"><a href="index.html"><img width="100%" src="images/banner.jpg"></a></th>											
+				</tr>
 			</thead>
 			<tbody>
 				<tr>
@@ -37,7 +37,7 @@
 							<b>Загрузите ваш аватар: </b><input type="file" name="avatar">
 							<br>
 							<h3>Какой ваш любимый цвет?</h3>
-							<input type="color">
+							<input type="color" name="favourite_color">
 							<h3>Откуда вы?</h3>
 							<select name="country" multiple>
 								<optgroup label="Страна">
@@ -47,15 +47,15 @@
 								</optgroup>
 							</select>	
 							<h3>Какик очки(шлемы) виртуальной реальности вам нравятся?</h3>
-							<b>Samsung Gear VR </b><input type="checkbox" name="user-glasses" name="Samsung-Gear">
-							<b>PlayStation VR </b><input type="checkbox" name="user-glasses" name="PlayStation-VR">
-							<b>HTC Vive </b><input type="checkbox" name="user-glasses" name="HTC-Vive">
-							<b>Другие </b><input type="checkbox" name="user-glasses" name="Other">
+							<b>Samsung Gear VR </b><input type="checkbox" name="user-glasses" value="Samsung-Gear">
+							<b>PlayStation VR </b><input type="checkbox" name="user-glasses" value="PlayStation-VR">
+							<b>HTC Vive </b><input type="checkbox" name="user-glasses" value="HTC-Vive">
+							<b>Другие </b><input type="checkbox" name="user-glasses" value="Other">
 							<br><br>
 							<h3>Напишите кратко о себе:</h3>
 							<textarea cols="50" rows="15" name="user_about" placeholder="Немного о себе..."></textarea>
 							<br><br>
-							<input type="submit" name="VR_submit" value="Зарегистрироваться" >
+							<input type="submit" name="VR_submit" value="Зарегистрироваться">
 							<input type="reset" name="VR_submit" value="Сбросить">
 						</form>
 					</td>
