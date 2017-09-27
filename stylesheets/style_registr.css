@@ -1,0 +1,24 @@
+
+h1, caption, .title_style{
+	color: #000099;
+}
+
+h2, h3, b {
+	color:#001199;
+}
+
+sup {
+	color: #EA3510;
+	font-size: 24px;
+}
+
+.registr_form {
+	border: 6px dotted #001199;
+	padding: 0px 0px 20px 28px;
+}
+
+.right_column img {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
