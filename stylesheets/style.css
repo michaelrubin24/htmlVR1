@@ -1,9 +1,9 @@
-body{
-	background-image:url(../images/strip.png);
+body {
+	background-image: url(../images/strip.png);
 }
 
-table{
-	background-color:#FFFFFF;
+table {
+	background-color: #FFFFFF;
 }
 
 h1, h2, caption, .title_style {
@@ -19,8 +19,8 @@ form {
 	list-style: none;
 }
 a{
-	font-weight:bold;
-	text-decoration:none;
+	font-weight: bold;
+	text-decoration: none;
 }
 ul a:hover {
 	background-color: #EA3510;
